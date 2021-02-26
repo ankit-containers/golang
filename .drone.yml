@@ -9,7 +9,7 @@ steps:
     repo: quay.io/ankitrgadiya/golang
     dockerfile: ./Dockerfile
     registry: quay.io
-    tags: ["latest", "1.15.6"]
+    tags: ["latest", "1.16.0"]
     username:
       from_secret: docker_username
     password:
