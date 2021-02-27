@@ -1,7 +1,5 @@
 # Golang
 
-[![Source Code](https://img.shields.io/badge/source-gitea-blue)](https://git.argc.in/containers/golang)
-[![Build Status](https://drone.argd.in/api/badges/containers/golang/status.svg)](https://drone.argd.in/containers/golang)
 [![Registry](https://img.shields.io/badge/registry-quay.io-red)](https://quay.io/repository/ankitrgadiya/golang?tab=tags)
 
 The base Golang image comes with the Go toolchain installed. This image builds
