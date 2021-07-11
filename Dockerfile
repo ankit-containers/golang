@@ -1,7 +1,7 @@
-FROM golang:1.16.0-alpine
+FROM golang:1.16.5-alpine
 LABEL maintainer="Ankit R Gadiya ankit@argp.in"
 
-ENV GOLANG_VERSION=1.16.0
+ENV GOLANG_VERSION=1.16.5
 ENV GOLANG_CI_LINT_VERSION=1.37.1
 
 RUN apk --no-cache --update add gcc build-base sqlite sqlite-dev sqlite-libs
